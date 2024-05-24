@@ -1,8 +1,2 @@
-a,b = input().split()
-
-a = int(a)
-b = int(b)
-
-c=a+b
-
-print(c)
+a,b = map(int, input().split())
+print(a+b)
