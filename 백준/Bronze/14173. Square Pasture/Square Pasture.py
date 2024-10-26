@@ -1,0 +1,5 @@
+ax1, ay1, ax2, ay2 = map(int, input().split())
+bx1, by1, bx2, by2 = map(int, input().split())
+x = max(ax1, ax2, bx1, bx2) - min(ax1, ax2, bx1, bx2)
+y = max(ay1, ay2, by1, by2) - min(ay1, ay2, by1, by2)
+print(max(x,y)**2)
