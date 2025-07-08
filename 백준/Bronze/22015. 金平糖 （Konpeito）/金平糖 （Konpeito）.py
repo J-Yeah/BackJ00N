@@ -1,2 +1,3 @@
-a,b,c = map(int, input().split())
-print(c-b + c-a)
+a = list(map(int, input().split()))
+a.sort()
+print(a[2]*2-a[0]-a[1])
